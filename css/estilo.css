@@ -1,0 +1,103 @@
+@charset="UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Oswald:300');
+
+body{
+  backgraund: rgba(102,102,102,1);
+  
+  
+@import url('https://fonts.googleapis.com/css?family=Oswald:300');
+body{
+    margin: 10px;
+    padding: 10px;
+}
+}
+#nav_bar ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#nav_bar li{
+  float: left;
+}
+
+#nav_bar a{
+  color: rgba(0,0,0,1);
+  text-decoration:none;
+  display: block;
+  padding: 12px 26px;
+  font-family:"Oswald";
+  font-size:18px;
+  
+}
+
+#nav_bar {
+  backgraund: rgba(0,0,0,1);
+  width: 1000px;
+  height: 52px;
+}
+
+.barra{
+  color:rgba(153,153,153,1);
+  padding:15px 0 0 0;
+}
+
+#nav_bar a:hover{
+  color:rgba(0,0,255,8);
+  backgraund:rgba(0,0,0,0.2);
+  animation:ls ms 1;
+  
+}
+
+@keyframes ms{
+  0%{
+    opacity: 0;
+    transform:scale(1.6);
+    
+  }
+}
+
+
+#formRegistro {
+    width: 100px;
+    height: 200px;
+
+}
+
+#formRegistro p input{
+    border:solid green;
+
+}
+#Registerbutton button {
+  backgraund: rgba(0,0,0,1);
+  width: 50px;
+  height: 30px;
+  margin: 10px;
+  padding: 10px;
+}
+
+#Registerbutton button{
+  color: rgba(0,0,0,1);
+  text-decoration:none;
+  display: block;
+  padding: 3px 6px;
+  font-family:"Oswald";
+  font-size:6px;
+  
+}
+
+#Registerbutton button:hover{
+  color:rgba(0,0,255,8);
+  backgraund:rgba(0,0,0,0.2);
+  animation:ls ms 1;
+  
+}
+
+@keyframes ms{
+  0%{
+    opacity: 0;
+    transform:scale(1.6);
+    
+  }
+}
+
